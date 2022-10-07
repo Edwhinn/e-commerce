@@ -37,8 +37,8 @@ const CheckEmail = () => {
         <Container2>
 
          <Wrapper>
-            <Title>Account Verified!</Title>
-            <p>You Have Successfully made your account with VMD Clothing Brand! Please check your email for more information.</p>
+            <Title>Check Email!</Title>
+            <p>You have successfully made your account with VMD Clothing Brand! Please check your email for more information.</p>
         
         </Wrapper>
         </Container2>

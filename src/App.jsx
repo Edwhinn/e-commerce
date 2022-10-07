@@ -5,6 +5,7 @@ import ProductList from "./pages/ProductList";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import CheckEmail from "./pages/CheckEmail";
+import VerifiedEmail from "./pages/VerifiedEmail";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/Register' element={<Register/>}/>
         <Route path='/ProductList' element={<ProductList/>}/>
         <Route path='/checkemail' element={<CheckEmail/>}/>
+        <Route path='/VerifiedEmail' element={<VerifiedEmail/>}/>
       </Routes>
     </Router>
   )
