@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const sliderItems =[
 
     {
@@ -6,7 +8,7 @@ export const sliderItems =[
         title: "SALE 40% OFF",
         desc: "Annual 40% September Sale! LIMITED time offers once a year!",
         bg: "b19d85",
-        button: "SHOP NOW"
+        button:<Link to ="/ProductList" style={{ textDecoration: 'none', color: 'black' }}>SHOP NOW</Link> 
     },
     {
         id: 2,
@@ -14,7 +16,7 @@ export const sliderItems =[
         title: "POPULAR ITEMS",
         desc: "Shop the Most Popular Items in our Catalog!!",
         bg: "5b6d95",
-        button:"SHOP NOW"
+        button:<Link to ="/ProductList" style={{ textDecoration: 'none', color: 'black' }}>SHOP NOW</Link>
     },
     {
         id: 3,
