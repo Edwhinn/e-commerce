@@ -5,7 +5,8 @@ import styled from 'styled-components'
 
 const Container = styled.div`
     height: 60px;
-    background-color: white;
+    background-color: #1D1D1D;
+    color: white;
 `;
 
 const Wrapper = styled.div`
@@ -27,7 +28,7 @@ const Language = styled.span`
 `;
 
 const SearchContainer = styled.div`
-    border: 0.5px solid lightgray;
+    border: 0.5px solid white;
     display: flex;
     align-items: center;
     margin-left: 25px;
