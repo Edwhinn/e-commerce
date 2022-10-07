@@ -1,6 +1,7 @@
 import { Badge } from '@material-ui/core';
 import { Search, ShoppingCartOutlined } from '@material-ui/icons';
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -28,7 +29,7 @@ const Language = styled.span`
 `;
 
 const SearchContainer = styled.div`
-    border: 0.5px solid white;
+    border: none;
     display: flex;
     align-items: center;
     margin-left: 25px;
@@ -58,6 +59,7 @@ const Right = styled.div`
 const MenuItem = styled.div`
     font-size: 14px;
     cursor: pointer;
+    
     margin-left: 25px;
 `
 
@@ -69,19 +71,19 @@ const Navbar = () => {
             <Language>EN</Language>
             <SearchContainer>
                 <Input/>
-                <Search style={{color:"gray", fontSize: 16}}/>
+                <Search style={{color:"gray", fontSize: 16, border: "1px light grey", marginLeft:"4px"}}/>
             </SearchContainer>
         </Left>
 
         <Center>
             <Logo>
-                VMD
+                <Link to ="/" style={{ textDecoration: 'none', color: 'white' }}>VMD</Link>
             </Logo>
         </Center>
 
         <Right>
-            <MenuItem>REGISTER</MenuItem>
-            <MenuItem>SIGN IN</MenuItem>
+            <MenuItem><Link to = "/register" style={{ textDecoration: 'none', color: 'white' }}>REGISTER</Link></MenuItem>
+            <MenuItem><Link to = "/login" style={{ textDecoration: 'none', color: 'white' }}>LOG IN</Link></MenuItem>
             <MenuItem>
             <Badge badgeContent={2} color="primary">
                 <ShoppingCartOutlined/>

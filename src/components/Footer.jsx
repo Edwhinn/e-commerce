@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Pinterest, Twitter } from '@material-ui/icons'
+import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter } from '@material-ui/icons'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -39,20 +39,35 @@ const Center = styled.div`
 `
 
 const Title = styled.h3`
-
+    margin-bottom: 30px;
 `
 
 const List = styled.ul`
-
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 `
 
 const ListItem = styled.li`
-
+    width: 50%;
+    margin-bottom: 10px;
 `
 
 const Right = styled.div`
-    flex: 1;
+    flex: 1;    
     padding: 20px;
+`
+
+const ContactItem = styled.div`
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+`
+
+const payment = styled.img`
+
 `
 
 const Footer = () => {
@@ -80,7 +95,13 @@ const Footer = () => {
                 <ListItem>Cheese</ListItem> 
             </List>
         </Center>
-        <Right></Right>
+        <Right>
+            <Title>Contact Information</Title>
+            <ContactItem><Room style={{marginRight:"10px"}}/>560 Santa Clara Lane North Miami Beach, FL 33160</ContactItem>
+            <ContactItem><Phone style={{marginRight:"10px"}}/>+1 234 5678</ContactItem>
+            <ContactItem><MailOutline style={{marginRight:"10px"}}/>VMDclothing@official.com</ContactItem>
+
+        </Right>
     </Container>
   )
 }

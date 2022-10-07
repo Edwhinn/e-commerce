@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -6,6 +7,7 @@ const Container = styled.div`
   margin: 3px ;
   height: 70vh;
   position: relative;
+  
 `
 const Image = styled.img`
   width: 100%;
@@ -48,7 +50,7 @@ export const CategoryItem = ({item}) => {
         <Image src={item.img}/>
         <Info>
             <Title>{item.title}</Title>
-            <Button>SHOP NOW</Button>
+            <Button><Link to="/ProductList" style={{ textDecoration: 'none', color: 'black' }} >SHOP NOW</Link></Button>
         </Info>
     </Container>
   )
