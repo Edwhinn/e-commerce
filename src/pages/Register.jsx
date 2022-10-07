@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import Navbar from '../components/Navbar'
 
@@ -53,10 +54,7 @@ const Button = styled.button`
     background-color: transparent;
     cursor: pointer;
     justify-content: center;
-    &:hover{
-        background-color: black;
-        color: white;
-    }
+    
 `
 
 const Register = () => {
@@ -74,7 +72,7 @@ const Register = () => {
                 <Input placeholder = "email"/>
                 <Input placeholder = "password"/>
                 <Input placeholder = "confirm password"/>
-                <Button>Create Account</Button>
+                <Link to ="/checkemail" style={{ textDecoration: 'none', color: 'black' }}><Button>Create Account</Button></Link>
             </Form>
         </Wrapper>
         </Container2>
