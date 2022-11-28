@@ -1,9 +1,9 @@
 import { Add, Remove } from '@material-ui/icons'
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import Newsletter from '../components/Newsletter'
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
+import Newsletter from '../../components/Newsletter'
 
 const Container = styled.div`
 
@@ -103,17 +103,28 @@ const Button = styled.button`
 `
 
 
-const Product = () => {
+const SweatPants01 = () => {
+
+    const [active, setActive] = useState("Green")
+    
   return (
     <Container>
         <Navbar/>
 
         <Wrapper>
             <ImgContainer>
+            {active === "Green" &&
                 <Image src ="https://www.transparentpng.com/thumb/trouser/gray-nicolls-clothes-fashion-jeans-long-photo-14.png"/>
+            }
+            {active === "Red" &&
+                <Image src ="https://images.stockx.com/images/Eric-Emanuel-EE-HW-Sweatpants-Scarlet-Red.jpg?fit=fill&bg=FFFFFF&w=576&h=384&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1644602149&q=57"/>
+            }
+            {active === "Black" &&
+                <Image src ="https://cdn11.bigcommerce.com/s-233ct/products/291/images/5435/SWEATPANT_BLACK_WEB_PANTS_STOREVIEW_NEW__47681.1638316640.500.659.jpg?c=2"/>
+            }
             </ImgContainer>
             <InfoContainer>
-                <Title>Green Pants</Title>
+                <Title>SweatPants</Title>
                 <Desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
@@ -123,9 +134,9 @@ const Product = () => {
                 <FilterContainer>
                     <Filter>
                         <FilterTitle>Color:</FilterTitle>
-                        <FilterColor color = "black" />
-                        <FilterColor color = "red" />
-                        <FilterColor color = "green" />
+                        <FilterColor color = "black" onClick={()=> setActive("Black")}/>
+                        <FilterColor color = "red" onClick={()=> setActive("Red")}/>
+                        <FilterColor color = "green" onClick={()=> setActive("Green")}/>
                     </Filter>
                     <Filter>
                         <FilterTitle>Size</FilterTitle>
@@ -135,6 +146,8 @@ const Product = () => {
                             <FilterSizeOption>M</FilterSizeOption>
                             <FilterSizeOption>L</FilterSizeOption>
                             <FilterSizeOption>XL</FilterSizeOption>
+                            <FilterSizeOption>XXL</FilterSizeOption>
+                            <FilterSizeOption>XXL</FilterSizeOption>
                         </FilterSize>
                     </Filter>
                 </FilterContainer>
@@ -166,4 +179,4 @@ const Product = () => {
   )
 }
 
-export default Product
+export default SweatPants01

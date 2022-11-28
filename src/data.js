@@ -51,6 +51,7 @@ export const categories = [
     {
       id:1,
       img:"https://www.transparentpng.com/thumb/socks/lQY2LN-color-socks-vector-image.png",
+
     },
     {
       id:2,
@@ -71,6 +72,7 @@ export const categories = [
     {
       id:6,
       img:"https://www.transparentpng.com/thumb/trouser/gray-nicolls-clothes-fashion-jeans-long-photo-14.png",
+      path:"/ProductList/Sweatpants01"
     },
     {
       id:7,

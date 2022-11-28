@@ -1,5 +1,5 @@
 import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons'
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 
 const Info = styled.div`
@@ -69,8 +69,11 @@ const Icon = styled.div`
     }
 `
 
+
+
+
 const Product = ({item}) => {
-  return (
+   return (
     <Container>        
     <Circle/>
     <Image src={item.img}/>

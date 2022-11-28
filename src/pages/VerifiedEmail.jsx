@@ -21,6 +21,9 @@ const Wrapper = styled.div`
     padding: 30px;
     width: 40%;
     background-color: white;
+    align-items: center;
+    justify-content: right;
+    
 `
 const Title = styled.h1`
     text-align: center;
@@ -42,18 +45,14 @@ const Input = styled.input`
     &:focus {
         border:none;
     }
-
-   
-
 `
 const Button = styled.button`
     margin-top: 30px;
     padding: 15px 20px;
-    width: 40%;
+    width: 30%;
     border: 1px solid black;
     background-color: transparent;
     cursor: pointer;
-    justify-content: center;   
 `
 
 const VerifiedEmail = () => {
@@ -64,6 +63,7 @@ const VerifiedEmail = () => {
 
          <Wrapper>
             <Title>Account Verified!</Title>
+            <br></br>
             <p>You have successfully made your account with VMD Clothing Brand! Please Enjoy your shopping experience and Thank You!</p>
             <Link to ="/" style={{ textDecoration: 'none', color: 'black' }}><Button>Homepage</Button></Link>
         
