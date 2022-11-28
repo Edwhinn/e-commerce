@@ -9,7 +9,7 @@ const Container = styled.div`
 `
 const Container2 = styled.div`
     width: 100%;
-    height: 92.2vh;
+    height: 100vh;
     background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255, 0.5)), 
     url("https://media.idownloadblog.com/wp-content/uploads/2016/02/mountain-night-snow-dark-star-40-wallpaper-mod.jpg") center;
     background-size: cover;
@@ -48,14 +48,12 @@ const Input = styled.input`
 `
 const Button = styled.button`
     margin-top: 30px;
-    margin-left: 170px;
     padding: 15px 20px;
     width: 40%;
     border: 1px solid black;
     background-color: transparent;
     cursor: pointer;
-    justify-content: center;
-    
+    justify-content: center;   
 `
 
 const VerifiedEmail = () => {

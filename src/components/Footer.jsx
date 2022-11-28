@@ -86,13 +86,13 @@ const Footer = () => {
         <Center>
             <Title>Useful Links</Title>
             <List>
-                <ListItem>Cheese</ListItem>
-                <ListItem>Cheese</ListItem>
-                <ListItem>Cheese</ListItem>
-                <ListItem>Cheese</ListItem>
-                <ListItem>Cheese</ListItem>
-                <ListItem>Cheese</ListItem>
-                <ListItem>Cheese</ListItem> 
+                <ListItem>@</ListItem>
+                <ListItem>@</ListItem>
+                <ListItem>@</ListItem>
+                <ListItem>@</ListItem>
+                <ListItem>@</ListItem>
+                <ListItem>@</ListItem>
+                <ListItem>@</ListItem> 
             </List>
         </Center>
         <Right>
