@@ -1,7 +1,8 @@
-import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons'
+import { AddCircleOutline, AddShoppingCart, FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons'
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
+import Cart from './Cart';
 
 
 const Info = styled.div`
@@ -76,23 +77,22 @@ const Icon = styled.div`
 
 const Product = ({item}) => {
 
-    const {id, img, path} = item;
-    
+    c
 
+    
    return (
     <Container>        
     <Circle/>
     <Image src={item.img}/>
     <Info>
         <Link to={item.path} style={{ textDecoration: 'none', color: 'black' }}>
-        <Icon onClick>
+        <Icon>
             <ShoppingCartOutlined/>
         </Icon>
         </Link>
         <Icon>
-            <SearchOutlined/>
+            <AddShoppingCart />
         </Icon>
-        
         <Icon>
             <FavoriteBorderOutlined/>
         </Icon>
