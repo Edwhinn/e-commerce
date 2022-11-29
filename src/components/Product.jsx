@@ -2,7 +2,6 @@ import { AddCircleOutline, AddShoppingCart, FavoriteBorderOutlined, SearchOutlin
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
-import Cart from './Cart';
 
 
 const Info = styled.div`
@@ -76,9 +75,6 @@ const Icon = styled.div`
 
 
 const Product = ({item}) => {
-
-    c
-
     
    return (
     <Container>        

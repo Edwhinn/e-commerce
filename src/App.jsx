@@ -4,8 +4,9 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import CheckEmail from "./pages/CheckEmail";
 import VerifiedEmail from "./pages/VerifiedEmail";
-import ProductList from "./pages/indvProducts/ProductList";
-import SweatPants01 from "./pages/indvProducts/SweatPants01";
+import SweatPants01 from "./pages/Products/SweatPants01";
+import ProductList from "./pages/Products/ProductList";
+
 
 
 const App = () => {
