@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar'
 import Announcement from '../../components/Announcement'
 import Products from '../../components/Products'
 import Footer from '../../components/Footer'
+import Products2 from '../../components/Products2'
 
 
 const Container = styled.div`
@@ -44,7 +45,7 @@ const ProductList = () => {
     <Container>
         <Navbar/>
         <Announcement/>
-        <Title>Dresses</Title>
+        <Title>Catalog</Title>
         <FilterContainer>
             <Filter><FilterText>Filter Products:</FilterText>
                     <Select>
@@ -72,7 +73,7 @@ const ProductList = () => {
                 </Select>
             </Filter>
         </FilterContainer>
-        <Products/>
+        <Products2/>
         <Footer/>
     </Container>
   )

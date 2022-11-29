@@ -49,6 +49,35 @@ export const categories = [
   
   export const popularProducts = [
     {
+      id:4,
+      img:"https://www.transparentpng.com/thumb/shorts/board-shorts-images-12.png",
+    },
+    {
+      id:5,
+      img:"https://www.transparentpng.com/thumb/shirt/ytM0vF-red-polo-tshirt-fron-view-t-shirt.png",
+      path: "/ProductList/redshirt01"
+    },
+    {
+      id:6,
+      img:"https://www.transparentpng.com/thumb/trouser/gray-nicolls-clothes-fashion-jeans-long-photo-14.png",
+      path:"/ProductList/Sweatpants01"
+    },
+    {
+      id:7,
+      img:"https://www.pngkey.com/png/full/256-2565890_png-stock-dress-transparent-formal-prom-dresses-clipart.png",
+    },
+    {
+      id:8,
+      img:"https://www.transparentpng.com/thumb/clothes/flYuLs-dress-clothes-clipart-photo.png",
+    },
+    {
+      id:9,
+      img:"https://www.transparentpng.com/thumb/shirt/ytM0vF-red-polo-tshirt-fron-view-t-shirt.png",
+    },
+  ]
+
+  export const productList = [
+    {
       id:1,
       img:"https://www.transparentpng.com/thumb/socks/lQY2LN-color-socks-vector-image.png",
 
@@ -68,6 +97,7 @@ export const categories = [
     {
       id:5,
       img:"https://www.transparentpng.com/thumb/shirt/ytM0vF-red-polo-tshirt-fron-view-t-shirt.png",
+      path: "/ProductList/redshirt01"
     },
     {
       id:6,
@@ -76,7 +106,7 @@ export const categories = [
     },
     {
       id:7,
-      img:"https://www.transparentpng.com/thumb/clothes/KaU7ZT-blue-women-dress-clothes-hd-image.png",
+      img:"https://www.pngkey.com/png/full/256-2565890_png-stock-dress-transparent-formal-prom-dresses-clipart.png",
     },
     {
       id:8,
@@ -84,6 +114,43 @@ export const categories = [
     },
     {
       id:9,
-      img:"https://www.transparentpng.com/thumb/shirt/ytM0vF-red-polo-tshirt-fron-view-t-shirt.png",
+      img:"https://www.pngall.com/wp-content/uploads/5/Men-Cotton-Pant-PNG-HD-Image.png",
+    },
+    {
+      id:10,
+      img:"https://www.pngmart.com/files/13/Denim-Skirt-PNG-Transparent-Picture.png",
+    },
+    {
+      id:11,
+      img:"https://www.pngall.com/wp-content/uploads/5/Men-Cotton-Pant-Transparent.png",
+    },
+    {
+      id:12,
+      img:"https://www.pngall.com/wp-content/uploads/2016/04/Polo-Shirt-Free-Download-PNG.png",
+    },
+    {
+      id:13,
+      img:"https://freepngimg.com/download/jacket/37126-9-jacket-transparent-image.png",
+    },
+    {
+      id:14,
+      img:"https://freepngimg.com/thumb/dress/33183-2-floral-dress-transparent-image.png",
+    },
+    {
+      id:15,
+      img:"https://www.pngmart.com/files/7/Denim-Jean-PNG-Transparent-Image.png",
+    },
+    {
+      id:16,
+      img:"https://www.pngall.com/wp-content/uploads/4/Skirt-PNG-Image.png",
+    },
+
+    {
+      id:17,
+      img:"https://www.pngall.com/wp-content/uploads/11/Black-Pullover-PNG-File.png",
+    },
+    {
+      id:18,
+      img:"https://www.pngall.com/wp-content/uploads/11/Pullover.png",
     },
   ]

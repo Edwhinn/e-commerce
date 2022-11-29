@@ -15,7 +15,7 @@ const Container = styled.div`
 const Announcement = () => {
   return (
     <Container>
-           <p>WELCOME TO VMD</p>
+           <p>WELCOME TO VMD CLOTHING</p>
     </Container>
   )
 }

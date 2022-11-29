@@ -103,9 +103,9 @@ const Button = styled.button`
 `
 
 
-const SweatPants01 = () => {
+const BlueDress01 = () => {
 
-    const [active, setActive] = useState("Green")
+    const [active, setActive] = useState("Blue")
     
   return (
     <Container>
@@ -113,30 +113,30 @@ const SweatPants01 = () => {
 
         <Wrapper>
             <ImgContainer>
-            {active === "Green" &&
-                <Image src ="https://www.transparentpng.com/thumb/trouser/gray-nicolls-clothes-fashion-jeans-long-photo-14.png"/>
+            {active === "Blue" &&
+                <Image src ="https://www.pngkey.com/png/full/256-2565890_png-stock-dress-transparent-formal-prom-dresses-clipart.png" />
             }
             {active === "Red" &&
-                <Image src ="https://images.stockx.com/images/Eric-Emanuel-EE-HW-Sweatpants-Scarlet-Red.jpg?fit=fill&bg=FFFFFF&w=576&h=384&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1644602149&q=57"/>
+                <Image src ="https://assets.stickpng.com/images/580b57fbd9996e24bc43befc.png"/>
             }
             {active === "Black" &&
-                <Image src ="https://cdn11.bigcommerce.com/s-233ct/products/291/images/5435/SWEATPANT_BLACK_WEB_PANTS_STOREVIEW_NEW__47681.1638316640.500.659.jpg?c=2"/>
+                <Image src ="https://assets.stickpng.com/thumbs/580b57fbd9996e24bc43beef.png"/>
             }
             </ImgContainer>
             <InfoContainer>
-                <Title>SweatPants</Title>
+                <Title>T-Shirt</Title>
                 <Desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </Desc>
-                <Price>$ 15.00</Price>
+                <Price>$ 10.99</Price>
                 <FilterContainer>
                     <Filter>
                         <FilterTitle>Color:</FilterTitle>
                         <FilterColor color = "black" onClick={()=> setActive("Black")}/>
                         <FilterColor color = "red" onClick={()=> setActive("Red")}/>
-                        <FilterColor color = "green" onClick={()=> setActive("Green")}/>
+                        <FilterColor color = "blue" onClick={()=> setActive("Blue")}/>
                     </Filter>
                     <Filter>
                         <FilterTitle>Size</FilterTitle>
@@ -178,4 +178,4 @@ const SweatPants01 = () => {
   )
 }
 
-export default SweatPants01
+export default BlueDress01
