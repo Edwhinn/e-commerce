@@ -82,4 +82,8 @@ export const categories = [
       id:8,
       img:"https://www.transparentpng.com/thumb/clothes/flYuLs-dress-clothes-clipart-photo.png",
     },
+    {
+      id:9,
+      img:"https://www.transparentpng.com/thumb/shirt/ytM0vF-red-polo-tshirt-fron-view-t-shirt.png",
+    },
   ]

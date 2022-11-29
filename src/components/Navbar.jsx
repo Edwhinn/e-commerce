@@ -64,6 +64,9 @@ const MenuItem = styled.div`
 `
 
 const Navbar = () => {
+
+   
+
   return (
     <Container>
     <Wrapper>
@@ -85,7 +88,7 @@ const Navbar = () => {
             <MenuItem><Link to = "/register" style={{ textDecoration: 'none', color: 'white' }}>REGISTER</Link></MenuItem>
             <MenuItem><Link to = "/login" style={{ textDecoration: 'none', color: 'white' }}>LOG IN</Link></MenuItem>
             <MenuItem>
-            <Badge badgeContent={2} color="primary">
+            <Badge badgeContent="" color="secondary" variant="dot" overlap="circular">
                 <ShoppingCartOutlined/>
             </Badge>
             </MenuItem>

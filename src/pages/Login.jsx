@@ -7,7 +7,7 @@ const Container = styled.div`
 `
 const Container2 = styled.div`
     width: 100%;
-    height: 92.1vh;
+    height: 100vh;
     background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255, 0.5)), 
     url("https://www.jetsetter.com//uploads/sites/7/2018/04/LEMBjMgD.jpeg") center;
     background-size: cover;
