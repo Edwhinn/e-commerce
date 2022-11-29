@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar'
 
 const Container = styled.div`
@@ -56,7 +57,7 @@ const Button = styled.button`
     margin-bottom: 10px;
 `
 
-const Link = styled.a`
+const Cheese = styled.a`
     margin: 5px 0px ;
     font-size: 12px;
     text-decoration: underline;
@@ -72,12 +73,17 @@ const Login = () => {
 
          <Wrapper>
             <Title>Sign In</Title>
+            <br></br>
             <Form>
                 <Input placeholder = "username"/>
                 <Input placeholder = "password"/>
                 <Button>LOGIN</Button>
-                <Link>Forgot Password?</Link>
-                <Link>Create a New Account</Link>
+                <Link style={{ textDecoration: 'none', color: 'black'}}>
+                <Cheese>Forgot Password?</Cheese>
+                </Link>
+                <Link to="/register" style={{ textDecoration: 'none', color: 'black' }}> 
+                <Cheese>Create a New Account</Cheese>
+                </Link>
             </Form>
         </Wrapper>
         </Container2>
