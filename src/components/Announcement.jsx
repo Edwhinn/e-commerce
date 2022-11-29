@@ -15,7 +15,7 @@ const Container = styled.div`
 const Announcement = () => {
   return (
     <Container>
-           <p>25% SALE on ALL PRODUCTS! </p>
+           <p>WELCOME TO VMD</p>
     </Container>
   )
 }
