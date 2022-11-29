@@ -173,7 +173,6 @@ const SweatPants01 = () => {
             </InfoContainer>
         </Wrapper>
 
-        <Newsletter/>
         <Footer/>
     </Container>
   )
