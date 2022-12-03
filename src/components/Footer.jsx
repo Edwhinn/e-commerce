@@ -75,7 +75,7 @@ const Footer = () => {
     <Container>
         <Left>
             <Logo>VMD</Logo>
-            <Desc>Limit Testing Space Limit Testing Space Limit Testing Space Limit Testing Space Limit Testing Space Limit Testing Space </Desc>
+            <Desc>Thank you for shopping at VMD Clothing Brand! We hope you enjoy your shopping experience.</Desc>
             <SocialContainer>
                 <SocialIcon><Facebook/></SocialIcon>
                 <SocialIcon><Instagram/></SocialIcon>
@@ -86,13 +86,13 @@ const Footer = () => {
         <Center>
             <Title>Useful Links</Title>
             <List>
-                <ListItem>@</ListItem>
-                <ListItem>@</ListItem>
-                <ListItem>@</ListItem>
-                <ListItem>@</ListItem>
-                <ListItem>@</ListItem>
-                <ListItem>@</ListItem>
-                <ListItem>@</ListItem> 
+                <ListItem>https://www.google.com/</ListItem>
+                <ListItem></ListItem>
+                <ListItem></ListItem>
+                <ListItem></ListItem>
+                <ListItem></ListItem>
+                <ListItem></ListItem>
+                <ListItem></ListItem> 
             </List>
         </Center>
         <Right>

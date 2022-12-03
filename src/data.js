@@ -70,10 +70,7 @@ export const categories = [
       id:8,
       img:"https://www.transparentpng.com/thumb/clothes/flYuLs-dress-clothes-clipart-photo.png",
     },
-    {
-      id:9,
-      img:"https://www.transparentpng.com/thumb/shirt/ytM0vF-red-polo-tshirt-fron-view-t-shirt.png",
-    },
+    
   ]
 
   export const productList = [
@@ -107,6 +104,8 @@ export const categories = [
     {
       id:7,
       img:"https://www.pngkey.com/png/full/256-2565890_png-stock-dress-transparent-formal-prom-dresses-clipart.png",
+      path:"/ProductList/BlueDress01"
+
     },
     {
       id:8,
